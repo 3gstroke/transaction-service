@@ -1,0 +1,12 @@
+package org.gstroke.exception;
+
+public enum ErrorCode {
+
+    CUSTOMER_NOT_FOUND,
+    CUSTOMER_INACTIVE,
+    ACCOUNT_NOT_FOUND,
+    INSUFFICIENT_FUNDS,
+    SAME_ACCOUNT_TRANSFER,
+    INVALID_AMOUNT,
+    TRANSACTION_FAILED
+}
